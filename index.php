@@ -21,12 +21,24 @@
                 <li><a href="#contato" title="Contato sobre o Curso de Html5">Fale Conosco</a></li>
             </ul>
         </header>
+        <!--        FECHA O CABEÇALHO-->
         <main>
             
         </main>
-        
+        <!--        FECHA O CONTEUDO-->
         <footer>
-            
+            <h1>Curso de Html5</h1>
+            <nav>
+                <h1>Upinside Treinamentos</h1>
+                <ul>
+                    <li><a target="_blank" title="Upinside Treinamentos"href="//www.upinside.com.br">upinside</a></li>
+                    <li> | </li>
+                    <li><a target="_blank" title="Upinside Treinamentos no Facebook"href="//www.facebook.com/upinside">Facebook</a></li>
+                    <li> | </li>
+                    <li><a target="_blank" title="Upinside Treinamentos no YouTube"href="//www.youtube.com/c/RobsonVLeite">You Tube</a></li>
+                </ul>
+            </nav>
         </footer>
+        <!--        FECHA O RODAPÉ-->
     </body>
 </html>
