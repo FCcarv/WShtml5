@@ -1,0 +1,51 @@
+/*RESET*/
+*, *:before, *:after{margin:0; padding: 0;
+
+font-family:'Open Sans',sans-serif;
+font-size: 1em; /*1em quer dizer q todas as fontes serão relativas ao navegador em 16 px.*/
+font-weight: 400;
+
+line-height:1.2; /*espaçamento da altura da fonte*/ 
+letter-spacing: 0em; /*espaçamento entre as letras ou caracteres*/
+
+box-sizing: border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+
+h1{font-style: 2em; font-weight: 400;}
+h2{font-style: 1.8em; font-weight: 600;}
+h3{font-style: 1.5em; font-weight: 800;}
+p{margin-bottom: 15px;}
+b, strong{font-weight: bold;}
+mark{padding: 5px 10px; background: #eee;}
+ul{list-style: none;}
+img{border: none;  max-width: 100%; vertical-align: middle;}
+small{font-size: 0.75em; color: #555;}
+a{text-decoration: none; color:#09f;}
+a img{border: 0;}
+/*MÍDIAS*/
+object, 
+embed,
+video,
+iframe,
+iframe['style']{
+	max-width: 100%;
+	height: auto;
+} 
+/*BOX GERAL*/
+.container{float: left; width: 100%;}
+.content{display: block; margin: 0 auto; padding: 40px 0; width: 80%; max-width: 1200px;}
+.clear{clear: both;}
+.fontzero{font-size: 0;}
+
+/*HEADER*/
+.main-header{font-size: 0.875em;}
+.main-header .content{padding: 20px 0;}
+.main-logo{float: left;}
+.main-menu{float: right; margin-top: 15px;}
+.main-menu li{display: inline-block;}
+.main-menu a{display: inline-block; padding: 10px 15px; color: #888; text-transform: uppercase;font-weight: 600;}
+.main-menu .special{color: #f2723e;}
+.main-menu a:hover{background: #f5f5f5;}
+
