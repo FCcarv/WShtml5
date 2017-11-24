@@ -99,7 +99,7 @@
                                                     <p class="tagline">Confira algumas aulas de HTML5!</p>
                                            </header>
 
-                                            <div>
+                                            <div class="videoaulas_video">
                                                     <article>
                                                             <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
                                                             <h1>HTML5 e CSS!</h1>
@@ -135,21 +135,26 @@
                                                             <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
                                                     </article> 
                                             </div>  
-                                            <aside>
-                                               <header>
-                                                        <h1>Comentários</h1>
-                                              </header>
-                                               <article>
-                                                       <img title="Comentario de Fulano de tal" alt="Comentario de Fulano de tal" src="img/ft.jpg" />
-                                                       <h1><span>Comentário de </span>Fulano de tal</h1>
-                                                       <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
-                                               </article>  
+                                            <aside class="videoaulas_sidebar">
+                                                <div class="border-bottom">
+                                                    <div class="content">
+                                                       <header>
+                                                             <h1 class="title">Comentários</h1>
+                                                      </header>
+                                                       <article class="videoaulas_sidebar_comment">
+                                                               <img title="Comentario de Fulano de tal" alt="Comentario de Fulano de tal" src="img/ft.jpg" />
+                                                               <h1><span class="fontzero">Comentário de </span>Fulano de tal</h1>
+                                                               <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
+                                                       </article>  
 
-                                                <article>
-                                                       <img title="Comentario de Sicrano" alt="Comentario de Sicrano" src="img/ft.jpg"">
-                                                       <h1><span>Comentário de </span>Sicrano</h1>
-                                                       <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
-                                                </article>                         
+                                                        <article class="videoaulas_sidebar_comment">
+                                                               <img title="Comentario de Sicrano" alt="Comentario de Sicrano" src="img/ft.jpg"">
+                                                               <h1><span class="fontzero">Comentário de </span>Sicrano</h1>
+                                                               <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
+                                                        </article> 
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div> <!-- border-bottom  -->                       
                                             </aside>
                                             <div class="clear"></div>
                                        </div>    
