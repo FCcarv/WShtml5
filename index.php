@@ -46,110 +46,118 @@
                                         </div>
                                     </article>
                               <!-- Destaque do site -->
-                               <section>
-                                      <header>
-                                            <h1>Curso de Html5<h1/>
+                               <section class="container curso">
+                                    <div class="content">
+                                        <header class="big-title">
+                                            <h1>Curso de Html5</h1>
                                             <p class="tagline">Confira o que você vai aprender no curso de HTML5!</p>
-                                      </header>
-                                        <article>
+                                        </header>
+                                        <article class="curso-item">
                                             <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
                                             <h1>HTML5 e CSS!</h1>
                                             <p>Aprenda a utilizar o HTML5 do Jeito Certo!Segmentando o seu site e distribuindo conteúdo de forma otimizada de ponta a ponta.</p>
                                             <span><time datetime="<?=date('Y-m-d');?>"><?=date('d/m/Y \á\s H:i\h\s');?></time> em <b>Matérias</b></span>
                                         </article>
 
-                                        <article>
+                                        <article class="curso-item">
                                             <img title="Curso de CSS e CSS3" src="img/02.jpg" alt="[Curso de CSS e CSS3]">
                                             <h1>CSS e CSS3!</h1>
                                             <p>Aprenda a estilizar seu site utilizando CSS,CSS3 e HTML5 do Jeito Certo!De forma segmentada.</p>
                                             <span><time datetime="<?=date('Y-m-d');?>"><?=date('d/m/Y \á\s H:i\h\s');?></time> em <b>Matérias</b></span>
                                         </article>  
 
-                                        <article>
+                                        <article class="curso-item">
                                             <img title="Curso de Jquery" src="img/03.jpg" alt="[Curso de Jquery]">
                                             <h1>JQUERY!</h1>
                                             <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
                                             <span><time datetime="<?=date('Y-m-d');?>"><?=date('d/m/Y \á\s H:i\h\s');?></time> em <b>Matérias</b></span>
                                         </article>  
 
-                                        <article>
+                                        <article class="curso-item">
                                             <img title="Curso World Series" src="img/04.jpg" alt="[Curso World Series]">
                                             <h1>WORLD SERIES</h1>
                                             <p>Seja um desenvolvedor completo desde do front-end até o back-end.Com esse curso da Upinside Treinamentos.</p>
                                             <span><time datetime="<?=date('Y-m-d');?>"><?=date('d/m/Y \á\s H:i\h\s');?></time> em <b>Matérias</b></span>
                                         </article>   
-
-                                        <footer>
-                                            <img title="Confira o curso de Html5 do Jeito Certo" src="img/05.png" alt="[Confira o curso de Html5 do Jeito Certo]">
-                                            <h1>Curso HTML5 do Jeito Certo!</h1>
-                                            <p>Aprenda a utilizar todo o poder do HTMl5 semântico somando a avançadas técnicas de SEO para criar sites altamente lucrativos e que geram resultados rápidos e eficientes.</p>
-                                            <a target="_blank" title="Confira o curso de HTML5 do Jeito Certo"  href="https://www.upinside.com.br">Conhecer agora!</a>
-                                        </footer> 
-                               </section> 
+                                        <div class="clear"></div>
+                                     </div>                                             
+                                        <footer class="container curso_footer">
+                                            <div class="content">
+                                                <img title="Confira o curso de Html5 do Jeito Certo" src="img/05.png" alt="[Confira o curso de Html5 do Jeito Certo]">
+                                                <h1>Curso HTML5 do Jeito Certo!</h1>
+                                                <p>Aprenda a utilizar todo o poder do HTMl5 semântico somando a avançadas técnicas de SEO para criar sites altamente lucrativos e que geram resultados rápidos e eficientes.</p>
+                                                <a class="btn" target="_blank" title="Confira o curso de HTML5 do Jeito Certo"  href="https://www.upinside.com.br">Conhecer agora!</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </footer>
+                                </section> 
                                 <!-- O CURSO -->  
-                               <section>
-                                        <header>
-                                                <h1>Video Aulas do Cursos</h1>
-                                                <p class="tagline">Confira algumas aulas de HTML5!</p>
-                                       </header>
+                               <section class="container videoaulas">
+                                        <div class="content">
+                                            <header class="big-title">
+                                                    <h1>Video Aulas dos Cursos</h1>
+                                                    <p class="tagline">Confira algumas aulas de HTML5!</p>
+                                           </header>
 
-                                        <div>
-                                                <article>
-                                                        <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
-                                                        <h1>HTML5 e CSS!</h1>
-                                                        <p>Aprenda a utilizar o HTML5 do Jeito Certo!</p>
-                                               </article>
-
-                                                <article>
-                                                        <img title="Curso de CSS e CSS3" src="img/02.jpg" alt="[Curso de CSS e CSS3]">
-                                                        <h1>CSS e CSS3!</h1>
-                                                        <p>Aprenda a estilizar seu site utilizando CSS,CSS3 e HTML5 do Jeito Certo!De forma segmentada.</p>
-                                                </article>  
-
-                                                <article>
-                                                        <img title="Curso de Jquery" src="img/03.jpg" alt="[Curso de Jquery]">
-                                                        <h1>JQUERY!</h1>
-                                                        <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
-                                                </article>  
-                                                <article>
-                                                        <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
-                                                        <h1>HTML5 e CSS!</h1>
-                                                        <p>Aprenda a utilizar o HTML5 do Jeito Certo!</p>
-                                                </article>
-
-                                                <article>
-                                                        <img title="Curso de CSS e CSS3" src="img/02.jpg" alt="[Curso de CSS e CSS3]">
-                                                        <h1>CSS e CSS3!</h1>
-                                                        <p>Aprenda a estilizar seu site utilizando CSS,CSS3 e HTML5 do Jeito Certo!De forma segmentada.</p>
-                                                </article>  
-
-                                                <article>
-                                                        <img title="Curso de Jquery" src="img/03.jpg" alt="[Curso de Jquery]">
-                                                        <h1>JQUERY!</h1>
-                                                        <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
-                                                </article> 
-                                        </div>  
-
-                                        <aside>
-                                                   <header>
-                                                            <h1>Comentários</h1>
-                                                  </header>
-                                                   <article>
-                                                           <img title="Comentario de Fulano de tal" alt="Comentario de Fulano de tal" src="img/ft.jpg" />
-                                                           <h1><span>Comentário de </span>Fulano de tal</h1>
-                                                           <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
-                                                   </article>  
+                                            <div>
+                                                    <article>
+                                                            <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
+                                                            <h1>HTML5 e CSS!</h1>
+                                                            <p>Aprenda a utilizar o HTML5 do Jeito Certo!</p>
+                                                   </article>
 
                                                     <article>
-                                                           <img title="Comentario de Sicrano" alt="Comentario de Sicrano" src="img/ft.jpg"">
-                                                           <h1><span>Comentário de </span>Sicrano</h1>
-                                                           <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
-                                                    </article>                         
-                                         </aside>
+                                                            <img title="Curso de CSS e CSS3" src="img/02.jpg" alt="[Curso de CSS e CSS3]">
+                                                            <h1>CSS e CSS3!</h1>
+                                                            <p>Aprenda a estilizar seu site utilizando CSS,CSS3 e HTML5 do Jeito Certo!De forma segmentada.</p>
+                                                    </article>  
+
+                                                    <article>
+                                                            <img title="Curso de Jquery" src="img/03.jpg" alt="[Curso de Jquery]">
+                                                            <h1>JQUERY!</h1>
+                                                            <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
+                                                    </article>  
+                                                    <article>
+                                                            <img title="Curso de HTML5 - HTML e CSS" src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]">
+                                                            <h1>HTML5 e CSS!</h1>
+                                                            <p>Aprenda a utilizar o HTML5 do Jeito Certo!</p>
+                                                    </article>
+
+                                                    <article>
+                                                            <img title="Curso de CSS e CSS3" src="img/02.jpg" alt="[Curso de CSS e CSS3]">
+                                                            <h1>CSS e CSS3!</h1>
+                                                            <p>Aprenda a estilizar seu site utilizando CSS,CSS3 e HTML5 do Jeito Certo!De forma segmentada.</p>
+                                                    </article>  
+
+                                                    <article>
+                                                            <img title="Curso de Jquery" src="img/03.jpg" alt="[Curso de Jquery]">
+                                                            <h1>JQUERY!</h1>
+                                                            <p>Aprenda todas as manipulações e estilos usando uma Biblioteca Completa do Javascript.</p>
+                                                    </article> 
+                                            </div>  
+                                            <aside>
+                                               <header>
+                                                        <h1>Comentários</h1>
+                                              </header>
+                                               <article>
+                                                       <img title="Comentario de Fulano de tal" alt="Comentario de Fulano de tal" src="img/ft.jpg" />
+                                                       <h1><span>Comentário de </span>Fulano de tal</h1>
+                                                       <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
+                                               </article>  
+
+                                                <article>
+                                                       <img title="Comentario de Sicrano" alt="Comentario de Sicrano" src="img/ft.jpg"">
+                                                       <h1><span>Comentário de </span>Sicrano</h1>
+                                                       <p>O curso foi pensado para levar o aluno do zero ao profissional.</p>
+                                                </article>                         
+                                            </aside>
+                                            <div class="clear"></div>
+                                       </div>    
                               </section> 
                                 <!-- VIDEO AULAS  --> 
-                             <article>
-                                        <header>
+                             <article class="container contato">
+                                    <div class="content">
+                                        <header class="big-title">
                                                 <h1>Entre em Contato:</h1>
                                                 <p class="tagline">Este formulário está aqui apenas para estudos do Curso HTML5!</p>
                                         </header>
@@ -170,12 +178,15 @@
                                                 </label> 
                                                 <img title="Aguarde, enviando contato!" alt="[Aguarde, enviando contato!]" src="img/ajax-loader.gif" > 
                                                 <button>Enviar Contato</button>                                     
-                                         </form>                  
+                                         </form>
+                                         <div class="clear"></div> 
+                                    </div>                     
                               </article> 
                               <!--  CONTATO  -->
                     </main>
                     <!--FECHA O CONTEUDO-->
-                    <footer>
+                    <footer class="container">
+                        <div class="content"
                             <h1>Curso de Html5</h1>
                             <nav>
                                     <h1>Upinside Treinamentos</h1>
@@ -187,6 +198,8 @@
                                         <li><a target="_blank" title="Upinside Treinamentos no YouTube"href="//www.youtube.com/c/RobsonVLeite">You Tube</a></li>
                                     </ul>
                             </nav>
+                            <div class="clear"></div>
+                        </div>
                     </footer>
                    <!--FECHA O RODAPÉ-->
         </body>

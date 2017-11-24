@@ -39,6 +39,24 @@ iframe['style']{
 .clear{clear: both;}
 .fontzero{font-size: 0;}
 
+/*BIG-TITLE*/
+.big-title{
+    display: block;
+    margin-bottom: 50px;
+    border-right: 10px solid #ccc;
+}
+.big-title h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+}
+.big-title .tagline{
+    padding-left: 5px;
+    color: #ccc;
+}
+
+
 /*RATIO*/
 .ratio{
     position: relative;
@@ -101,4 +119,65 @@ iframe['style']{
     height: 350px;
     padding: 10px;
     background: rgba(255,255,255,0.3);
+}
+/*O CURSO*/
+.curso-item{
+    float: left;
+    width: 22.75%;/*Temos 4 artigos divdos por 100% menos os 3 espaços entre eles de 3%, sobraram 22.75%*/
+    margin-right: 3%;
+}
+.curso-item:last-of-type{
+    margin-right: 0;
+}
+.curso-item h1{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2eb5d1;
+    margin-top: 20px;
+}
+.curso-item p{
+    font-size: 0.875em;
+    margin: 10px 0;
+    color: #666;
+}
+.curso-item span{
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #999;
+}
+.curso_footer{
+    background: #289cb5;
+    text-align: center;
+    color: #fff;
+}
+.curso_footer .content{
+    padding-bottom: 0;
+    max-width: 500px;
+
+}
+.curso_footer h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+.curso_footer p{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.curso_footer .btn{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    background: #00458a;
+}
+
+.curso_footer .btn:hover{
+    background: #005ebb;
 }
