@@ -10,7 +10,8 @@
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         </head>
         <body>
-                    <header class="main_header container">
+            <p class="j_back backtop">Topo</p>
+                    <header class="main-header container home">
                         <div class="content">
                             <img class="main-logo" title="Curso de HTML5" alt="[Curso de Hml5]" src="img/_logo.png"/>
                             <h1 class="fontzero">Curso de Html5- UpInside Treinamentos</h1>
@@ -162,13 +163,13 @@
                                        </div>    
                               </section> 
                                 <!-- VIDEO AULAS  --> 
-                             <article class="container contato">
+                             <article class="container contato ">
                                     <div class="content">
                                         <header >
                                                 <h1>Entre em Contato:</h1>
                                                 <p class="tagline">Este formulário está aqui apenas para estudos do Curso HTML5!</p>
                                         </header>
-                                        <form  class="contato_form" action="" method="posts">
+                                        <form  class="contato_form j_formsubmit" action="" method="posts">
                                                 <label class="medium">
                                                         <span>Nome:</span>
                                                         <input type="text" name="nome" title="Informe Seu Nome" placeholder="Informe Seu Nome" required/>
@@ -210,6 +211,7 @@
                             </div>
                         </div>    
                     </footer>
-                   <!--FECHA O RODAPÉ-->
+                <script src="js/jquery-2.1.1.min.js"></script> 
+                <script src="js/script.js"></script>  <!--FECHA O RODAPÉ-->
         </body>
 </html>

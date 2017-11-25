@@ -1,16 +1,16 @@
 /*RESET*/
 *, *:before, *:after{margin:0; padding: 0;
 
-                     font-family:'Open Sans',sans-serif;
-                     font-size: 1em; /*1em quer dizer q todas as fontes serão relativas ao navegador em 16 px.*/
-                     font-weight: 400;
+   font-family:'Open Sans',sans-serif;
+   font-size: 1em; /*1em quer dizer q todas as fontes serão relativas ao navegador em 16 px.*/
+   font-weight: 400;
 
-                     line-height:1.2; /*espaçamento da altura da fonte*/ 
-                     letter-spacing: 0em; /*espaçamento entre as letras ou caracteres*/
+   line-height:1.2; /*espaçamento da altura da fonte*/ 
+   letter-spacing: 0em; /*espaçamento entre as letras ou caracteres*/
 
-                     box-sizing: border-box;
-                     -moz-box-sizing:border-box;
-                     -webkit-box-sizing:border-box;
+   box-sizing: border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
 }
 
 h1{font-style: 2em; font-weight: 400;}
@@ -40,6 +40,9 @@ iframe['style']{
 .fontzero{font-size: 0;}
 .border-bottom{padding-bottom: 10px; background:url(img/line_sidebar.jpg) center center;}
 .border_bottom_destaque{float: left; width: 100%;}
+.backtop{position: fixed; cursor: pointer; bottom: 15px; right: 25px; text-transform: uppercase; color: #fff; font-size: 0.8em; padding: 10px; background: rgba(0,0,0,0.5);}
+.backtop:hover{background: #09f;}
+
 
 /*BIG-TITLE*/
 .big-title{
@@ -77,6 +80,7 @@ iframe['style']{
 
 /*HEADER*/
 .main-header{font-size: 0.875em;}
+.main-header_fixed{position:fixed; top: 0;left: 0; background: #fff; border-bottom: 2px solid $ccc; z-index: 99;}
 .main-header .content{padding: 20px 0;}
 .main-logo{float: left;}
 .main-menu{float: right; margin-top: 15px;}
@@ -338,18 +342,18 @@ iframe['style']{
     float: right;
     margin-top: 25px;
     margin-left:20px;
-/*    display: none;*/
+    display: none;
 }
- /*FOOTER*/
- .main-footer{
+/*FOOTER*/
+.main-footer{
     text-align: center;
     color: #ccc;
- }
+}
 
- .main-footer .ftcontent{
-     background: #444;
-     padding: 30px;
- }
+.main-footer .ftcontent{
+   background: #444;
+   padding: 30px;
+}
 
 .main-footer .title{
     font-size: 2em;
