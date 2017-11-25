@@ -26,6 +26,7 @@
                     </header>
                     <!-- FECHA O CABEÇALHO-->
                     <main class="container">
+                                <div class="border-bottom border_bottom_destaque">
                                     <article class="destaque container">
                                         <div class="content">
                                             <header>
@@ -45,6 +46,7 @@
                                             <div class="clear"></div>
                                         </div>
                                     </article>
+                                </div>    
                               <!-- Destaque do site -->
                                <section class="container curso">
                                     <div class="content">
@@ -162,17 +164,17 @@
                                 <!-- VIDEO AULAS  --> 
                              <article class="container contato">
                                     <div class="content">
-                                        <header class="big-title">
+                                        <header >
                                                 <h1>Entre em Contato:</h1>
                                                 <p class="tagline">Este formulário está aqui apenas para estudos do Curso HTML5!</p>
                                         </header>
-                                        <form action="" method="posts">
-                                                <label>
+                                        <form  class="contato_form" action="" method="posts">
+                                                <label class="medium">
                                                         <span>Nome:</span>
                                                         <input type="text" name="nome" title="Informe Seu Nome" placeholder="Informe Seu Nome" required/>
                                                 </label>
 
-                                                <label>
+                                                <label class="medium">
                                                         <span>Email:</span>
                                                         <input type="email" name="email" title="Informe Seu Email" placeholder="Informe Seu Email" required/>
                                                 </label> 
@@ -181,8 +183,8 @@
                                                         <span>Mensagem:</span>
                                                         <textarea rows="3" name="msg" title="Informe Sua Mensagem" placeholder="Informe Sua Mensagem" required></textarea>
                                                 </label> 
-                                                <img title="Aguarde, enviando contato!" alt="[Aguarde, enviando contato!]" src="img/ajax-loader.gif" > 
-                                                <button>Enviar Contato</button>                                     
+                                                <img class="form_load" title="Aguarde, enviando contato!" alt="[Aguarde, enviando contato!]" src="img/ajax-loader.gif" > 
+                                                <button class="btn">Enviar Contato</button>                                     
                                          </form>
                                          <div class="clear"></div> 
                                     </div>                     
@@ -190,21 +192,23 @@
                               <!--  CONTATO  -->
                     </main>
                     <!--FECHA O CONTEUDO-->
-                    <footer class="container">
-                        <div class="content"
-                            <h1>Curso de Html5</h1>
-                            <nav>
-                                    <h1>Upinside Treinamentos</h1>
-                                    <ul>
-                                        <li><a target="_blank" title="Upinside Treinamentos"href="//www.upinside.com.br">upinside</a></li>
-                                        <li> | </li>
-                                        <li><a target="_blank" title="Upinside Treinamentos no Facebook"href="//www.facebook.com/upinside">Facebook</a></li>
-                                        <li> | </li>
-                                        <li><a target="_blank" title="Upinside Treinamentos no YouTube"href="//www.youtube.com/c/RobsonVLeite">You Tube</a></li>
-                                    </ul>
-                            </nav>
-                            <div class="clear"></div>
-                        </div>
+                    <footer class="container main-footer">
+                        <div class="border-bottom">
+                            <div class="ftcontent">
+                                <h1 class="title"> Curso de Html5</h1>
+                                   <nav>
+                                        <h1 class="subtitle" >Upinside Treinamentos</h1>
+                                        <ul class="main_footer_social">
+                                            <li><a target="_blank" title="Upinside Treinamentos"href="//www.upinside.com.br">upinside</a></li>
+                                            <li> | </li>
+                                            <li><a target="_blank" title="Upinside Treinamentos no Facebook"href="//www.facebook.com/upinside">Facebook</a></li>
+                                            <li> | </li>
+                                            <li><a target="_blank" title="Upinside Treinamentos no YouTube"href="//www.youtube.com/c/RobsonVLeite">You Tube</a></li>
+                                        </ul>
+                                   </nav>
+                                <div class="clear"></div>
+                            </div>
+                        </div>    
                     </footer>
                    <!--FECHA O RODAPÉ-->
         </body>

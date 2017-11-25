@@ -39,6 +39,7 @@ iframe['style']{
 .clear{clear: both;}
 .fontzero{font-size: 0;}
 .border-bottom{padding-bottom: 10px; background:url(img/line_sidebar.jpg) center center;}
+.border_bottom_destaque{float: left; width: 100%;}
 
 /*BIG-TITLE*/
 .big-title{
@@ -256,3 +257,146 @@ iframe['style']{
 .videoaulas_sidebar_comment p{
     font-size: 0.8em;
 }
+/*CONTATO*/
+.contato{
+    background: #eee;
+}
+
+.contato header{
+    float: left;
+    width: 30%;
+}
+
+.contato header h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 20px; 
+}
+
+.contato header p{
+    color: #555;
+}
+.contato_form{
+    float: right;
+    width: 70%;
+    padding-left: 5%;
+}
+
+.contato_form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contato_form span{
+    font-size: 0.7em;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contato_form .medium{
+    float: left;
+    width:48%; 
+}
+
+.contato_form .medium:first-of-type{
+    margin-right:4%;
+}
+
+.contato_form input,
+.contato_form textarea{
+    width:100%;
+    border: none;
+    background: #ccc;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.contato_form .btn{
+    border: none;
+    background: #289cb5;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875em;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.contato_form .btn:hover{
+    background: #51c1d9;
+}
+
+.form_load{
+    float: right;
+    margin-top: 25px;
+    margin-left:20px;
+/*    display: none;*/
+}
+ /*FOOTER*/
+ .main-footer{
+    text-align: center;
+    color: #ccc;
+ }
+
+ .main-footer .ftcontent{
+     background: #444;
+     padding: 30px;
+ }
+
+.main-footer .title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.main-footer .subtitle{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main_footer_social{
+    display: block;
+    margin-top: 20px;
+}
+
+.main_footer_social li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.main_footer_social a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.main_footer_social a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
